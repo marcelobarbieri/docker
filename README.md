@@ -6,7 +6,7 @@
 
 <br/>
 
-You can attach a volume on the Microsoft SQL Server too, as described on the [Microsoft Documentation](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-docker-container-deployment?view=sql-server-ver15&pivots=cs1-bash#persist):
+A volume can be attached on the Microsoft SQL Server too, as described on the [Microsoft Documentation](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-docker-container-deployment?view=sql-server-ver15&pivots=cs1-bash#persist):
 
 Using the above command to mount four folders of the container to a host directory and use a data volume container:
 
