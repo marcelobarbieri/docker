@@ -1,6 +1,16 @@
 
 ![](./Assets/docker-logo.png)
 
+<details><summary>/BIN/BASH</summary>
+
+<br/>
+
+Login as root:
+
+```docker exec -t -i -u root:root mssql-pix /bin/bash```
+
+</details>
+
 <details><summary>CP</summary>
 
 <br/>
