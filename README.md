@@ -13,21 +13,21 @@ Using the above command to mount four folders of the container to a host directo
 ```ps
 docker run 
 --name container-name 
---env 'ACCEPT-EULA=Y' 
+--env 'ACCEPT_EULA=Y' 
 --env 'SA_PASSWORD=password' 
 --publish 1433:1433 
 --volume <VOLUME>:/var/opt/mssql 
---volume='C:\Docker\Containers\SQL Server\Pix\Data\':/var/opt/mssql/data 
---volume='C:\Docker\Containers\SQL Server\Pix\Log\':/var/opt/mssql/log 
---volume='C:\Docker\Containers\SQL Server\Pix\Secrets\':/var/opt/mssql/secrets 
---volume='C:\Docker\Containers\SQL Server\Pix\Tmp\':/tmp 
+--volume='C:\Docker\Containers\SQL Server\Data\':/var/opt/mssql/data 
+--volume='C:\Docker\Containers\SQL Server\Log\':/var/opt/mssql/log 
+--volume='C:\Docker\Containers\SQL Server\Secrets\':/var/opt/mssql/secrets 
+--volume='C:\Docker\Containers\SQL Server\Tmp\':/tmp 
 --detach mcr.microsoft.com/mssql/server
 ```
 
 Example:
 
 ```ps
-docker run --name mssql-container --env 'ACCEPT-EULA=Y' --env 'SA_PASSWORD=!1q@2w#3e%5t' --publish 1433:1433 --volume mssql-volume:/var/opt/mssql --volume='C:\Docker\Containers\SQL Server\Pix\Data\':/var/opt/mssql/data --volume='C:\Docker\Containers\SQL Server\Pix\Log\':/var/opt/mssql/log --volume='C:\Docker\Containers\SQL Server\Pix\Secrets\':/var/opt/mssql/secrets --volume='C:\Docker\Containers\SQL Server\Pix\Tmp\':/tmp --detach mcr.microsoft.com/mssql/server
+docker run --name mssql-container --env 'ACCEPT_EULA=Y' --env 'SA_PASSWORD=!1q@2w#3e%5t' --publish 1433:1433 --volume mssql-volume:/var/opt/mssql --volume='C:\Docker\Containers\SQL Server\Data\':/var/opt/mssql/data --volume='C:\Docker\Containers\SQL Server\Log\':/var/opt/mssql/log --volume='C:\Docker\Containers\SQL Server\Secrets\':/var/opt/mssql/secrets --volume='C:\Docker\Containers\SQL Server\Tmp\':/tmp --detach mcr.microsoft.com/mssql/server
 ```
 
 ### Container
