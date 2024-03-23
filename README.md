@@ -7,15 +7,11 @@
 
 Copy files from a container
 
-```ps
-docker cp <Container ID>:<Container path> <host path>
-```
+> docker cp <Container ID>:<Container path> <host path>
 
 Copy files into a container
 
-```ps
-docker cp <Host path> <Container ID>:<Container path>
-```
+> docker cp <Host path> <Container ID>:<Container path>
 
 </details>
 
