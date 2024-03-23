@@ -2,8 +2,9 @@
 ![](./Assets/docker-logo.png)
 
 
-<details><summary>mssql</summary>
+<details><summary>MSSQL</summary>
 
+<br/>
 
 You can attach a volume on the Microsoft SQL Server too, as described on the [Microsoft Documentation](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-docker-container-deployment?view=sql-server-ver15&pivots=cs1-bash#persist):
 
