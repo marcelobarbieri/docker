@@ -3,7 +3,7 @@
 
 ## mssql
 
-![](./Assets/sql-logo.png)
+
 
 You can attach a volume on the Microsoft SQL Server too, as described on the (Microsoft Documentation)[https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-docker-container-deployment?view=sql-server-ver15&pivots=cs1-bash#persist]:
 
