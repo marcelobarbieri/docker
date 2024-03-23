@@ -25,7 +25,7 @@ A volume can be attached on the Microsoft SQL Server too, as described on the [M
 
 Using the above command to mount four folders of the container to a host directory and use a data volume container:
 
-```ps
+```
 docker run 
 --name container-name 
 --env 'ACCEPT_EULA=Y' 
@@ -41,7 +41,7 @@ docker run
 
 Example:
 
-```ps
+```
 docker run --name mssql-container --env 'ACCEPT_EULA=Y' --env 'SA_PASSWORD=!1q@2w#3e%5t' --publish 1433:1433 --volume mssql-volume:/var/opt/mssql --volume='C:\Docker\Containers\SQL Server\Data\':/var/opt/mssql/data --volume='C:\Docker\Containers\SQL Server\Log\':/var/opt/mssql/log --volume='C:\Docker\Containers\SQL Server\Secrets\':/var/opt/mssql/secrets --volume='C:\Docker\Containers\SQL Server\Tmp\':/tmp --detach mcr.microsoft.com/mssql/server
 ```
 
