@@ -1,6 +1,23 @@
 
 ![](./Assets/docker-logo.png)
 
+<details><summary>CP</summary>
+
+<br/>
+
+Copy files from a container
+
+```ps
+docker cp <Container ID>:<Container path> <host path>
+```
+
+Copy files into a container
+
+```ps
+docker cp <Host path> <Container ID>:<Container path>
+```
+
+</details>
 
 <details><summary>MSSQL</summary>
 
