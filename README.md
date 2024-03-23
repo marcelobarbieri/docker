@@ -7,7 +7,7 @@
 
 Copy files from a container
 
-> docker cp <Container ID>:<Container path> <host path>
+> ```docker cp <Container ID>:<Container path> <host path>```
 
 Copy files into a container
 
